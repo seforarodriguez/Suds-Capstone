@@ -1,4 +1,66 @@
-{"properties": [{"id":1,"houseImage":"http://dummyimage.com/103x100.png/ff4444/ffffff","Name":"jhurndall0","street":"76 Del Sol Parkway","city":"Bandungsari","houseSize":"L","cleaningtTime":3,"cleanStatus":true},
+{
+"users": [{
+    "id": 1,
+    "first_name": "Christye",
+    "last_name": "Bottrell",
+    "email": "cbottrell0@archive.org",
+    "isHost": true
+  }, {
+    "id": 2,
+    "first_name": "Darnell",
+    "last_name": "Henzley",
+    "email": "dhenzley1@wikia.com",
+    "isHost": false
+  }, {
+    "id": 3,
+    "first_name": "Piggy",
+    "last_name": "Poker",
+    "email": "ppoker2@stanford.edu",
+    "isHost": false
+  }, {
+    "id": 4,
+    "first_name": "Phil",
+    "last_name": "Shoreman",
+    "email": "pshoreman3@oracle.com",
+    "isHost": false
+  }, {
+    "id": 5,
+    "first_name": "Patsy",
+    "last_name": "Simonelli",
+    "email": "psimonelli4@netlog.com",
+    "isHost": true
+  }, {
+    "id": 6,
+    "first_name": "Kaia",
+    "last_name": "Siddle",
+    "email": "ksiddle5@thetimes.co.uk",
+    "isHost": false
+  }, {
+    "id": 7,
+    "first_name": "Ellie",
+    "last_name": "Critcher",
+    "email": "ecritcher6@myspace.com",
+    "isHost": false
+  }, {
+    "id": 8,
+    "first_name": "Waite",
+    "last_name": "Renehan",
+    "email": "wrenehan7@google.ru",
+    "isHost": true
+  }, {
+    "id": 9,
+    "first_name": "Jenica",
+    "last_name": "Siddele",
+    "email": "jsiddele8@reference.com",
+    "isHost": false
+  }, {
+    "id": 10,
+    "first_name": "Kaylyn",
+    "last_name": "Edwick",
+    "email": "kedwick9@imdb.com",
+    "isHost": true
+  }],
+"properties": [{"id":1,"houseImage":"http://dummyimage.com/103x100.png/ff4444/ffffff","Name":"jhurndall0","street":"76 Del Sol Parkway","city":"Bandungsari","houseSize":"L","cleaningtTime":3,"cleanStatus":true},
 {"id":2,"houseImage":"http://dummyimage.com/190x100.png/cc0000/ffffff","Name":"mpattison1","street":"700 Roxbury Place","city":"Rizal","zipcode":"7104","houseSize":"S","cleaningtTime":2,"cleanStatus":true},
 {"id":3,"houseImage":"http://dummyimage.com/177x100.png/5fa2dd/ffffff","Name":"jucceli2","street":"15421 Ridge Oak Parkway","city":"Paupanda Bawah","houseSize":"M","cleaningtTime":3,"cleanStatus":true},
 {"id":4,"houseImage":"http://dummyimage.com/193x100.png/dddddd/000000","Name":"krichardot3","street":"7904 Colorado Hill","city":"Padina","houseSize":"S","cleaningtTime":4,"cleanStatus":false},
