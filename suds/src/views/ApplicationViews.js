@@ -1,13 +1,11 @@
 import { Outlet, Route, Routes } from "react-router-dom"
-// import { TicketForm } from "../serviceTickets/TicketForm"
-// import { TicketContainer } from "../tickets/TicketContainer"
-// import { TicketList } from "../tickets/TicketList"
-// import { TicketSearch } from "../tickets/TicketSearch"
+import { PropertiesList } from "../home/Propertieslist"
+
 
 export const ApplicationViews = () => {
 	return (
         <Routes>
-            <Route path="/" element={
+            <Route path="/loggedin" element={
                 <>
                     <h1>Suds: Cleaning Made Easy</h1>
                     <div>your best Helper!</div>
@@ -15,8 +13,8 @@ export const ApplicationViews = () => {
                     <Outlet />
                 </>
             }>
-
             </Route>
+            <Route path="myProperties" element={< PropertiesList/>} />
         </Routes>
     )
 }
