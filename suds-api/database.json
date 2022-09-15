@@ -60,24 +60,309 @@
     "email": "kedwick9@imdb.com",
     "isHost": true
   }],
-"properties": [{"id":1,"houseImage":"http://dummyimage.com/103x100.png/ff4444/ffffff","Name":"jhurndall0","street":"76 Del Sol Parkway","city":"Bandungsari","houseSize":"L","cleaningtTime":3,"cleanStatus":true},
-{"id":2,"houseImage":"http://dummyimage.com/190x100.png/cc0000/ffffff","Name":"mpattison1","street":"700 Roxbury Place","city":"Rizal","zipcode":"7104","houseSize":"S","cleaningtTime":2,"cleanStatus":true},
-{"id":3,"houseImage":"http://dummyimage.com/177x100.png/5fa2dd/ffffff","Name":"jucceli2","street":"15421 Ridge Oak Parkway","city":"Paupanda Bawah","houseSize":"M","cleaningtTime":3,"cleanStatus":true},
-{"id":4,"houseImage":"http://dummyimage.com/193x100.png/dddddd/000000","Name":"krichardot3","street":"7904 Colorado Hill","city":"Padina","houseSize":"S","cleaningtTime":4,"cleanStatus":false},
-{"id":5,"houseImage":"http://dummyimage.com/177x100.png/ff4444/ffffff","Name":"jdivis4","street":"04 Washington Junction","city":"Moutsamoudou","houseSize":"S","cleaningtTime":5,"cleanStatus":true},
-{"id":6,"houseImage":"http://dummyimage.com/246x100.png/5fa2dd/ffffff","Name":"ybottoner5","street":"06830 Eastlawn Drive","city":"Rominimbang","zipcode":"9614","houseSize":"M","cleaningtTime":6,"cleanStatus":false},
-{"id":7,"houseImage":"http://dummyimage.com/204x100.png/cc0000/ffffff","Name":"abelcham6","street":"7268 Melby Court","city":"Dębów","zipcode":"37-230","houseSize":"M","cleaningtTime":7,"cleanStatus":false},
-{"id":8,"houseImage":"http://dummyimage.com/183x100.png/cc0000/ffffff","Name":"rclavey7","street":"23011 Twin Pines Avenue","city":"Kijini","houseSize":"S","cleaningtTime":8,"cleanStatus":false},
-{"id":9,"houseImage":"http://dummyimage.com/226x100.png/5fa2dd/ffffff","Name":"ranfusso8","street":"5707 Sullivan Drive","city":"Raoshi","houseSize":"M","cleaningtTime":9,"cleanStatus":false},
-{"id":10,"houseImage":"http://dummyimage.com/175x100.png/cc0000/ffffff","Name":"rhauxley9","street":"40659 Hauk Street","city":"São Sepé","zipcode":"97340-000","houseSize":"L","cleaningtTime":10,"cleanStatus":false},
-{"id":11,"houseImage":"http://dummyimage.com/198x100.png/5fa2dd/ffffff","Name":"ejennoa","street":"4 Forest Run Terrace","city":"Cisownica","zipcode":"43-450","houseSize":"L","cleaningtTime":11,"cleanStatus":true},
-{"id":12,"houseImage":"http://dummyimage.com/158x100.png/5fa2dd/ffffff","Name":"lwitherbyb","street":"329 Sunbrook Terrace","city":"Vicente Guerrero","zipcode":"92440","houseSize":"M","cleaningtTime":12,"cleanStatus":true},
-{"id":13,"houseImage":"http://dummyimage.com/201x100.png/dddddd/000000","Name":"tbracegirdlec","gender":"Non-binary","street":"4496 Elka Place","city":"Purísima","zipcode":"231547","houseSize":"L","cleaningtTime":13,"cleanStatus":true},
-{"id":14,"houseImage":"http://dummyimage.com/107x100.png/cc0000/ffffff","Name":"wrickeardd","street":"133 Old Gate Park","city":"T’aebaek","houseSize":"M","cleaningtTime":14,"cleanStatus":false},
-{"id":15,"houseImage":"http://dummyimage.com/194x100.png/ff4444/ffffff","Name":"rescritte","street":"2 Waywood Crossing","city":"Uyen Hung","houseSize":"S","cleaningtTime":15,"cleanStatus":false},
-{"id":16,"houseImage":"http://dummyimage.com/136x100.png/cc0000/ffffff","Name":"lamarf","street":"81893 Londonderry Alley","city":"Vista Hermosa","zipcode":"47670","houseSize":"L","cleaningtTime":16,"cleanStatus":false},
-{"id":17,"houseImage":"http://dummyimage.com/117x100.png/5fa2dd/ffffff","Name":"jrheadg","street":"6508 Anniversary Court","city":"Waigete","houseSize":"S","cleaningtTime":17,"cleanStatus":false},
-{"id":18,"houseImage":"http://dummyimage.com/222x100.png/cc0000/ffffff","Name":"ahaningtonh","street":"24 Gina Road","city":"Logan Lake","zipcode":"T3S","houseSize":"S","cleaningtTime":18,"cleanStatus":false},
-{"id":19,"houseImage":"http://dummyimage.com/131x100.png/ff4444/ffffff","Name":"gmccaffreyi","street":"9 Springs Plaza","city":"Pionerskiy","zipcode":"628250","houseSize":"M","cleaningtTime":19,"cleanStatus":false},
-{"id":20,"houseImage":"http://dummyimage.com/201x100.png/ff4444/ffffff","Name":"bthreadgouldj","street":"43 Trailsway Plaza","city":"Mbomba","houseSize":"L","cleaningtTime":20,"cleanStatus":false}]
+  "cleaningRequests": [{
+    "id": 1,
+    "cleanerId": 20,
+    "propertyId": 11,
+    "dateNeeded": "12/8/2022",
+    "jobCompleted": true
+  }, {
+    "id": 2,
+    "cleanerId": 16,
+    "propertyId": 5,
+    "dateNeeded": "12/2/2022",
+    "jobCompleted": false
+  }, {
+    "id": 3,
+    "cleanerId": 18,
+    "propertyId": 2,
+    "dateNeeded": "11/16/2022",
+    "jobCompleted": false
+  }, {
+    "id": 4,
+    "cleanerId": 2,
+    "propertyId": 5,
+    "dateNeeded": "10/31/2022",
+    "jobCompleted": true
+  }, {
+    "id": 5,
+    "cleanerId": 3,
+    "propertyId": 18,
+    "dateNeeded": "10/5/2022",
+    "jobCompleted": false
+  }, {
+    "id": 6,
+    "cleanerId": 18,
+    "propertyId": 12,
+    "dateNeeded": "10/7/2022",
+    "jobCompleted": false
+  }, {
+    "id": 7,
+    "cleanerId": 14,
+    "propertyId": 9,
+    "dateNeeded": "10/23/2022",
+    "jobCompleted": false
+  }, {
+    "id": 8,
+    "cleanerId": 8,
+    "propertyId": 11,
+    "dateNeeded": "10/30/2022",
+    "jobCompleted": true
+  }, {
+    "id": 9,
+    "cleanerId": 17,
+    "propertyId": 3,
+    "dateNeeded": "10/19/2022",
+    "jobCompleted": true
+  }, {
+    "id": 10,
+    "cleanerId": 5,
+    "propertyId": 7,
+    "dateNeeded": "9/27/2022",
+    "jobCompleted": false
+  }, {
+    "id": 11,
+    "cleanerId": 19,
+    "propertyId": 5,
+    "dateNeeded": "10/8/2022",
+    "jobCompleted": false
+  }, {
+    "id": 12,
+    "cleanerId": 11,
+    "propertyId": 11,
+    "dateNeeded": "11/16/2022",
+    "jobCompleted": true
+  }, {
+    "id": 13,
+    "cleanerId": 9,
+    "propertyId": 18,
+    "dateNeeded": "9/15/2022",
+    "jobCompleted": true
+  }, {
+    "id": 14,
+    "cleanerId": 11,
+    "propertyId": 17,
+    "dateNeeded": "11/30/2022",
+    "jobCompleted": true
+  }, {
+    "id": 15,
+    "cleanerId": 6,
+    "propertyId": 14,
+    "dateNeeded": "10/2/2022",
+    "jobCompleted": true
+  }, {
+    "id": 16,
+    "cleanerId": 10,
+    "propertyId": 11,
+    "dateNeeded": "11/14/2022",
+    "jobCompleted": true
+  }, {
+    "id": 17,
+    "cleanerId": 13,
+    "propertyId": 2,
+    "dateNeeded": "11/9/2022",
+    "jobCompleted": true
+  }, {
+    "id": 18,
+    "cleanerId": 12,
+    "propertyId": 12,
+    "dateNeeded": "9/13/2022",
+    "jobCompleted": false
+  }, {
+    "id": 19,
+    "cleanerId": 17,
+    "propertyId": 12,
+    "dateNeeded": "11/10/2022",
+    "jobCompleted": true
+  }, {
+    "id": 20,
+    "cleanerId": 11,
+    "propertyId": 1,
+    "dateNeeded": "11/9/2022",
+    "jobCompleted": false
+  }],
+  "cleaner": [{
+    "id": 1,
+    "userId": 16,
+    "profilePicture": "https://robohash.org/culpaveniamvoluptatem.png?size=50x50&set=set1"
+  }, {
+    "id": 2,
+    "userId": 11,
+    "profilePicture": "https://robohash.org/pariatursapienteperspiciatis.png?size=50x50&set=set1"
+  }, {
+    "id": 3,
+    "userId": 11,
+    "profilePicture": "https://robohash.org/aliquamestex.png?size=50x50&set=set1"
+  }, {
+    "id": 4,
+    "userId": 15,
+    "profilePicture": "https://robohash.org/eosetsit.png?size=50x50&set=set1"
+  }, {
+    "id": 5,
+    "userId": 18,
+    "profilePicture": "https://robohash.org/isteutvoluptatem.png?size=50x50&set=set1"
+  }, {
+    "id": 6,
+    "userId": 17,
+    "profilePicture": "https://robohash.org/officiisaliquamsapiente.png?size=50x50&set=set1"
+  }, {
+    "id": 7,
+    "userId": 10,
+    "profilePicture": "https://robohash.org/utvitaesit.png?size=50x50&set=set1"
+  }, {
+    "id": 8,
+    "userId": 13,
+    "profilePicture": "https://robohash.org/impeditomnisnon.png?size=50x50&set=set1"
+  }, {
+    "id": 9,
+    "userId": 10,
+    "profilePicture": "https://robohash.org/velitquiaquia.png?size=50x50&set=set1"
+  }, {
+    "id": 10,
+    "userId": 13,
+    "profilePicture": "https://robohash.org/eiusdoloresautem.png?size=50x50&set=set1"
+  }],
+  "properties": [{
+    "id": 1,
+    "name": "Ronstring",
+    "userId": 20,
+    "street": "397 Fulton Way",
+    "city": "Ferraz de Vasconcelos",
+    "zipCode": "08500-000",
+    "houseSize": "L",
+    "cleaningTime": 4,
+    "cleanStatus": false
+  }, {
+    "id": 2,
+    "name": "Zoolab",
+    "userId": 11,
+    "street": "43 Gerald Junction",
+    "city": "Porto Salvo",
+    "zipCode": "2740-010",
+    "houseSize": "2L",
+    "cleaningTime": 4,
+    "cleanStatus": false
+  }, {
+    "id": 3,
+    "name": "Gembucket",
+    "userId": 9,
+    "street": "68301 Steensland Terrace",
+    "city": "Youzha",
+    "houseSize": "2L",
+    "cleaningTime": 1,
+    "cleanStatus": false
+  }, {
+    "id": 4,
+    "name": "Alphazap",
+    "userId": 2,
+    "street": "7 Stone Corner Hill",
+    "city": "Alzamay",
+    "zipCode": "665161",
+    "houseSize": "M",
+    "cleaningTime": 4,
+    "cleanStatus": false
+  }, {
+    "id": 5,
+    "name": "Flowdesk",
+    "userId": 5,
+    "street": "657 Cordelia Hill",
+    "city": "Masaya",
+    "houseSize": "L",
+    "cleaningTime": 3,
+    "cleanStatus": true
+  }, {
+    "id": 6,
+    "name": "Stim",
+    "userId": 5,
+    "street": "914 Dunning Hill",
+    "city": "Banī Mazār",
+    "houseSize": "3L",
+    "cleaningTime": 3,
+    "cleanStatus": true
+  }, {
+    "id": 7,
+    "name": "Zathin",
+    "userId": 17,
+    "street": "02 Riverside Terrace",
+    "city": "Agualote",
+    "houseSize": "S",
+    "cleaningTime": 1,
+    "cleanStatus": true
+  }, {
+    "id": 8,
+    "name": "Bigta",
+    "userId": 13,
+    "street": "46878 Spenser Way",
+    "city": "New Panamao",
+    "zipCode": "7402",
+    "houseSize": "2L",
+    "cleaningTime": 3,
+    "cleanStatus": false
+  }, {
+    "id": 9,
+    "name": "Flexidy",
+    "userId": 17,
+    "street": "076 Trailsway Lane",
+    "city": "Plumtree",
+    "houseSize": "L",
+    "cleaningTime": 1,
+    "cleanStatus": true
+  }, {
+    "id": 10,
+    "name": "Keyle",
+    "userId": 2,
+    "street": "7 Lunder Street",
+    "city": "Jawl al Majma‘",
+    "houseSize": "S",
+    "cleaningTime": 4,
+    "cleanStatus": false
+  }, {
+    "id": 11,
+    "name": "Cardify",
+    "userId": 17,
+    "street": "906 Toban Park",
+    "city": "Olival",
+    "zipCode": "2435-454",
+    "houseSize": "3L",
+    "cleaningTime": 3,
+    "cleanStatus": false
+  }, {
+    "id": 12,
+    "name": "Cookley",
+    "userId": 16,
+    "street": "88 Schurz Circle",
+    "city": "Thạnh Hóa",
+    "houseSize": "S",
+    "cleaningTime": 3,
+    "cleanStatus": false
+  }, {
+    "id": 13,
+    "name": "Cardguard",
+    "userId": 13,
+    "street": "927 Fairview Junction",
+    "city": "Oranzherei",
+    "zipCode": "416368",
+    "houseSize": "L",
+    "cleaningTime": 3,
+    "cleanStatus": true
+  }, {
+    "id": 14,
+    "name": "Veribet",
+    "userId": 12,
+    "street": "4 Northfield Center",
+    "city": "Naḥf",
+    "houseSize": "2L",
+    "cleaningTime": 2,
+    "cleanStatus": true
+  }, {
+    "id": 15,
+    "name": "Sonsing",
+    "userId": 17,
+    "street": "0 Laurel Avenue",
+    "city": "Guaratinguetá",
+    "zipCode": "12500-000",
+    "houseSize": "L",
+    "cleaningTime": 3,
+    "cleanStatus": false
+  }] 
 }
