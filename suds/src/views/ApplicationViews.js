@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { PropertiesList } from "../home/Propertieslist"
 
 
 export const ApplicationViews = () => {
@@ -12,8 +13,8 @@ export const ApplicationViews = () => {
                     <Outlet />
                 </>
             }>
-
             </Route>
+            <Route path="myProperties" element={< PropertiesList/>} />
         </Routes>
     )
 }
