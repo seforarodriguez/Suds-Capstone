@@ -1,4 +1,4 @@
-[{"id":1,"houseImage":"http://dummyimage.com/103x100.png/ff4444/ffffff","Name":"jhurndall0","street":"76 Del Sol Parkway","city":"Bandungsari","houseSize":"L","cleaningtTime":3,"cleanStatus":true},
+{"properties": [{"id":1,"houseImage":"http://dummyimage.com/103x100.png/ff4444/ffffff","Name":"jhurndall0","street":"76 Del Sol Parkway","city":"Bandungsari","houseSize":"L","cleaningtTime":3,"cleanStatus":true},
 {"id":2,"houseImage":"http://dummyimage.com/190x100.png/cc0000/ffffff","Name":"mpattison1","street":"700 Roxbury Place","city":"Rizal","zipcode":"7104","houseSize":"S","cleaningtTime":2,"cleanStatus":true},
 {"id":3,"houseImage":"http://dummyimage.com/177x100.png/5fa2dd/ffffff","Name":"jucceli2","street":"15421 Ridge Oak Parkway","city":"Paupanda Bawah","houseSize":"M","cleaningtTime":3,"cleanStatus":true},
 {"id":4,"houseImage":"http://dummyimage.com/193x100.png/dddddd/000000","Name":"krichardot3","street":"7904 Colorado Hill","city":"Padina","houseSize":"S","cleaningtTime":4,"cleanStatus":false},
@@ -18,3 +18,4 @@
 {"id":18,"houseImage":"http://dummyimage.com/222x100.png/cc0000/ffffff","Name":"ahaningtonh","street":"24 Gina Road","city":"Logan Lake","zipcode":"T3S","houseSize":"S","cleaningtTime":18,"cleanStatus":false},
 {"id":19,"houseImage":"http://dummyimage.com/131x100.png/ff4444/ffffff","Name":"gmccaffreyi","street":"9 Springs Plaza","city":"Pionerskiy","zipcode":"628250","houseSize":"M","cleaningtTime":19,"cleanStatus":false},
 {"id":20,"houseImage":"http://dummyimage.com/201x100.png/ff4444/ffffff","Name":"bthreadgouldj","street":"43 Trailsway Plaza","city":"Mbomba","houseSize":"L","cleaningtTime":20,"cleanStatus":false}]
+}
