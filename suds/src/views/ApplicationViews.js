@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { NewPropertyForm } from "../home/PropertiesForm"
 import { PropertiesList } from "../home/Propertieslist"
 
 
@@ -15,6 +16,7 @@ export const ApplicationViews = () => {
             }>
             </Route>
             <Route path="myProperties" element={< PropertiesList/>} />
+            <Route path="createNewProperty" element={< NewPropertyForm />} />
         </Routes>
     )
 }
