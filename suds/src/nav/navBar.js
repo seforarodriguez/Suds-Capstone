@@ -11,6 +11,8 @@ function NavBar() {
     <ul className="navbar">
             <li className="navbar__item active">
                 <Link className="navbar__link" to="/myProperties">My Properties</Link>
+
+                <Link className="navbar__link" to="/createNewProperty"> + </Link>
             </li>
             {
              localStorage.getItem("suds_user")

@@ -9,6 +9,7 @@ export const PropertiesList = () => {
 
     const localSudsUser = localStorage.getItem("suds_user")
     const SudsUserObject = JSON.parse(localSudsUser)
+    
     //this is fetching the properties
     useEffect(
         () => {
@@ -40,15 +41,16 @@ export const PropertiesList = () => {
             const dirtyPropertiesArray = filteredProperties.filter(property => property.cleanStatus === false)
             setFilteredProperties(dirtyPropertiesArray)
         } else {
-            setFilteredProperties(filteredProperties)
+            setFilteredProperties(properties)
             }
         },
         [dirtyProperties]
     )
 
+    //I need extra code to make all the properties for that user to show... small bug with the usestate
     return <>
         <h2> My Properties </h2>
-        <button onClick={() => updateDirtyProperties(true)}>These Properties are dirty</button>
+        <button onClick={() =>   dirtyProperties === false ? updateDirtyProperties (true) : updateDirtyProperties(false)}>These Properties are dirty</button>
         <section className="allProperties">
             {
                 filteredProperties.map(property => {
