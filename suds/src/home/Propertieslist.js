@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
-import Button from 'react-bootstrap/Button';
-
 
 
 export const PropertiesList = () => {
 
     const [properties, setProperties] = useState([])
+    const [filteredProperties, setFilteredProperties] = useState([])
+    const [dirtyProperties, updateDirtyProperties] = useState(false)
 
+    const localSudsUser = localStorage.getItem("suds_user")
+    const SudsUserObject = JSON.parse(localSudsUser)
     //this is fetching the properties
     useEffect(
         () => {
@@ -19,19 +21,45 @@ export const PropertiesList = () => {
         [] // When this array is empty, you are observing initial component state
     )
 
+    useEffect(()=> {
+        if (SudsUserObject.host){
+            const allMyPropertiesArray = properties.filter(property => property.userId === SudsUserObject.id)
+            setFilteredProperties(allMyPropertiesArray)
+
+        } else {
+            setFilteredProperties(properties)
+        }
+
+    },[properties])
+
+  //  this is filtering the ones that have the clean status as false aka they are dirty
+    useEffect(
+        () => {
+            if (dirtyProperties) {
+            //if openOnly is true we are going to filter the tickets
+            const dirtyPropertiesArray = filteredProperties.filter(property => property.cleanStatus === false)
+            setFilteredProperties(dirtyPropertiesArray)
+        } else {
+            setFilteredProperties(filteredProperties)
+            }
+        },
+        [dirtyProperties]
+    )
+
     return <>
         <h2> My Properties </h2>
+        <button onClick={() => updateDirtyProperties(true)}>These Properties are dirty</button>
         <section className="allProperties">
             {
-                properties.map(property => {
-                    return <div>
+                filteredProperties.map(property => {
+                    return <div key={property.id}>
                         <ul>
                             <li>{property.name}</li>
                             <li>{property.street}, {property.city} {property.zipCode}</li>
                             <li>{property.houseSize}</li>
                         </ul>
-                        <Button variant="secondary">Delete</Button>{' '}
-                        <Button variant="secondary">Edit</Button>{' '}
+                        
+
                     </div>
 
                 })
