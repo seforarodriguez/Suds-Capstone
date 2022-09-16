@@ -60,10 +60,7 @@ export const PropertiesList = () => {
                             <li>{property.street}, {property.city} {property.zipCode}</li>
                             <li>{property.houseSize}</li>
                         </ul>
-                        
-
                     </div>
-
                 })
             }
         </section>
