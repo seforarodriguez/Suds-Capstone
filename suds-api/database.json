@@ -225,7 +225,7 @@
   "properties": [{
     "id": 1,
     "name": "Ronstring",
-    "userId": 20,
+    "userId": 1,
     "street": "397 Fulton Way",
     "city": "Ferraz de Vasconcelos",
     "zipCode": "08500-000",
@@ -235,17 +235,17 @@
   }, {
     "id": 2,
     "name": "Zoolab",
-    "userId": 11,
+    "userId": 1,
     "street": "43 Gerald Junction",
     "city": "Porto Salvo",
     "zipCode": "2740-010",
     "houseSize": "2L",
     "cleaningTime": 4,
-    "cleanStatus": false
+    "cleanStatus": true
   }, {
     "id": 3,
     "name": "Gembucket",
-    "userId": 9,
+    "userId": 1,
     "street": "68301 Steensland Terrace",
     "city": "Youzha",
     "houseSize": "2L",
@@ -312,7 +312,7 @@
     "name": "Keyle",
     "userId": 2,
     "street": "7 Lunder Street",
-    "city": "Jawl al Majma‘",
+    "city": "Jawl al Majma",
     "houseSize": "S",
     "cleaningTime": 4,
     "cleanStatus": false
@@ -364,5 +364,15 @@
     "houseSize": "L",
     "cleaningTime": 3,
     "cleanStatus": false
+  }],
+  "houseSize": [{
+    "id": 1,
+    "sizeNumber": "S"
+  },{
+    "id": 2,
+    "sizeNumber": "M"
+  },{
+    "id": 3,
+    "sizeNumber": "L"
   }] 
 }
