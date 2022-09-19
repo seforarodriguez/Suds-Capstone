@@ -15,6 +15,7 @@ export const NewPropertyForm = () => {
         cleaningTime: 0,
         cleanStatus: true
     })
+    
     /*
         TODO: Use the useNavigation() hook so you can redirect
         the user to the property list
