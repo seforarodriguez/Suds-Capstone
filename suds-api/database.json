@@ -74,142 +74,32 @@
   "cleaningRequests": [
     {
       "id": 1,
-      "cleanerId": 20,
       "propertyId": 11,
       "dateNeeded": "12/8/2022",
-      "jobCompleted": true
+      "jobCompleted": false
     },
     {
       "id": 2,
-      "cleanerId": 16,
       "propertyId": 5,
       "dateNeeded": "12/2/2022",
       "jobCompleted": false
     },
     {
       "id": 3,
-      "cleanerId": 18,
       "propertyId": 2,
       "dateNeeded": "11/16/2022",
       "jobCompleted": false
     },
     {
       "id": 4,
-      "cleanerId": 2,
       "propertyId": 5,
       "dateNeeded": "10/31/2022",
-      "jobCompleted": true
+      "jobCompleted": false
     },
     {
       "id": 5,
-      "cleanerId": 3,
-      "propertyId": 18,
-      "dateNeeded": "10/5/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 6,
-      "cleanerId": 18,
-      "propertyId": 12,
-      "dateNeeded": "10/7/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 7,
-      "cleanerId": 14,
-      "propertyId": 9,
-      "dateNeeded": "10/23/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 8,
-      "cleanerId": 8,
-      "propertyId": 11,
-      "dateNeeded": "10/30/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 9,
-      "cleanerId": 17,
-      "propertyId": 3,
-      "dateNeeded": "10/19/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 10,
-      "cleanerId": 5,
-      "propertyId": 7,
-      "dateNeeded": "9/27/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 11,
-      "cleanerId": 19,
-      "propertyId": 5,
-      "dateNeeded": "10/8/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 12,
-      "cleanerId": 11,
-      "propertyId": 11,
-      "dateNeeded": "11/16/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 13,
-      "cleanerId": 9,
-      "propertyId": 18,
-      "dateNeeded": "9/15/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 14,
-      "cleanerId": 11,
-      "propertyId": 17,
-      "dateNeeded": "11/30/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 15,
-      "cleanerId": 6,
-      "propertyId": 14,
-      "dateNeeded": "10/2/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 16,
-      "cleanerId": 10,
-      "propertyId": 11,
-      "dateNeeded": "11/14/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 17,
-      "cleanerId": 13,
-      "propertyId": 2,
-      "dateNeeded": "11/9/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 18,
-      "cleanerId": 12,
-      "propertyId": 12,
-      "dateNeeded": "9/13/2022",
-      "jobCompleted": false
-    },
-    {
-      "id": 19,
-      "cleanerId": 17,
-      "propertyId": 12,
-      "dateNeeded": "11/10/2022",
-      "jobCompleted": true
-    },
-    {
-      "id": 20,
-      "cleanerId": 11,
       "propertyId": 1,
-      "dateNeeded": "11/9/2022",
+      "dateNeeded": "10/5/2022",
       "jobCompleted": false
     }
   ],
