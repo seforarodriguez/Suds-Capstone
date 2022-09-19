@@ -132,9 +132,9 @@ export const NewPropertyForm = () => {
                             }}
                         >
                         <option value={0}>Choose your Property's Size...</option>
-                        <option value={1}>S</option>
-                        <option value={2}>M</option>
-                        <option value={3}>L</option> 
+                        <option value={"S"}>S</option>
+                        <option value={"M"}>M</option>
+                        <option value={"L"}>L</option> 
                     </select>
                      </div>
             </fieldset>

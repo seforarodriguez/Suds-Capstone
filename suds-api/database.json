@@ -1,378 +1,463 @@
 {
-"users": [{
-    "id": 1,
-    "first_name": "Christye",
-    "last_name": "Bottrell",
-    "email": "cbottrell0@archive.org",
-    "isHost": true
-  }, {
-    "id": 2,
-    "first_name": "Darnell",
-    "last_name": "Henzley",
-    "email": "dhenzley1@wikia.com",
-    "isHost": false
-  }, {
-    "id": 3,
-    "first_name": "Piggy",
-    "last_name": "Poker",
-    "email": "ppoker2@stanford.edu",
-    "isHost": false
-  }, {
-    "id": 4,
-    "first_name": "Phil",
-    "last_name": "Shoreman",
-    "email": "pshoreman3@oracle.com",
-    "isHost": false
-  }, {
-    "id": 5,
-    "first_name": "Patsy",
-    "last_name": "Simonelli",
-    "email": "psimonelli4@netlog.com",
-    "isHost": true
-  }, {
-    "id": 6,
-    "first_name": "Kaia",
-    "last_name": "Siddle",
-    "email": "ksiddle5@thetimes.co.uk",
-    "isHost": false
-  }, {
-    "id": 7,
-    "first_name": "Ellie",
-    "last_name": "Critcher",
-    "email": "ecritcher6@myspace.com",
-    "isHost": false
-  }, {
-    "id": 8,
-    "first_name": "Waite",
-    "last_name": "Renehan",
-    "email": "wrenehan7@google.ru",
-    "isHost": true
-  }, {
-    "id": 9,
-    "first_name": "Jenica",
-    "last_name": "Siddele",
-    "email": "jsiddele8@reference.com",
-    "isHost": false
-  }, {
-    "id": 10,
-    "first_name": "Kaylyn",
-    "last_name": "Edwick",
-    "email": "kedwick9@imdb.com",
-    "isHost": true
-  }],
-  "cleaningRequests": [{
-    "id": 1,
-    "cleanerId": 20,
-    "propertyId": 11,
-    "dateNeeded": "12/8/2022",
-    "jobCompleted": true
-  }, {
-    "id": 2,
-    "cleanerId": 16,
-    "propertyId": 5,
-    "dateNeeded": "12/2/2022",
-    "jobCompleted": false
-  }, {
-    "id": 3,
-    "cleanerId": 18,
-    "propertyId": 2,
-    "dateNeeded": "11/16/2022",
-    "jobCompleted": false
-  }, {
-    "id": 4,
-    "cleanerId": 2,
-    "propertyId": 5,
-    "dateNeeded": "10/31/2022",
-    "jobCompleted": true
-  }, {
-    "id": 5,
-    "cleanerId": 3,
-    "propertyId": 18,
-    "dateNeeded": "10/5/2022",
-    "jobCompleted": false
-  }, {
-    "id": 6,
-    "cleanerId": 18,
-    "propertyId": 12,
-    "dateNeeded": "10/7/2022",
-    "jobCompleted": false
-  }, {
-    "id": 7,
-    "cleanerId": 14,
-    "propertyId": 9,
-    "dateNeeded": "10/23/2022",
-    "jobCompleted": false
-  }, {
-    "id": 8,
-    "cleanerId": 8,
-    "propertyId": 11,
-    "dateNeeded": "10/30/2022",
-    "jobCompleted": true
-  }, {
-    "id": 9,
-    "cleanerId": 17,
-    "propertyId": 3,
-    "dateNeeded": "10/19/2022",
-    "jobCompleted": true
-  }, {
-    "id": 10,
-    "cleanerId": 5,
-    "propertyId": 7,
-    "dateNeeded": "9/27/2022",
-    "jobCompleted": false
-  }, {
-    "id": 11,
-    "cleanerId": 19,
-    "propertyId": 5,
-    "dateNeeded": "10/8/2022",
-    "jobCompleted": false
-  }, {
-    "id": 12,
-    "cleanerId": 11,
-    "propertyId": 11,
-    "dateNeeded": "11/16/2022",
-    "jobCompleted": true
-  }, {
-    "id": 13,
-    "cleanerId": 9,
-    "propertyId": 18,
-    "dateNeeded": "9/15/2022",
-    "jobCompleted": true
-  }, {
-    "id": 14,
-    "cleanerId": 11,
-    "propertyId": 17,
-    "dateNeeded": "11/30/2022",
-    "jobCompleted": true
-  }, {
-    "id": 15,
-    "cleanerId": 6,
-    "propertyId": 14,
-    "dateNeeded": "10/2/2022",
-    "jobCompleted": true
-  }, {
-    "id": 16,
-    "cleanerId": 10,
-    "propertyId": 11,
-    "dateNeeded": "11/14/2022",
-    "jobCompleted": true
-  }, {
-    "id": 17,
-    "cleanerId": 13,
-    "propertyId": 2,
-    "dateNeeded": "11/9/2022",
-    "jobCompleted": true
-  }, {
-    "id": 18,
-    "cleanerId": 12,
-    "propertyId": 12,
-    "dateNeeded": "9/13/2022",
-    "jobCompleted": false
-  }, {
-    "id": 19,
-    "cleanerId": 17,
-    "propertyId": 12,
-    "dateNeeded": "11/10/2022",
-    "jobCompleted": true
-  }, {
-    "id": 20,
-    "cleanerId": 11,
-    "propertyId": 1,
-    "dateNeeded": "11/9/2022",
-    "jobCompleted": false
-  }],
-  "cleaner": [{
-    "id": 1,
-    "userId": 16,
-    "profilePicture": "https://robohash.org/culpaveniamvoluptatem.png?size=50x50&set=set1"
-  }, {
-    "id": 2,
-    "userId": 11,
-    "profilePicture": "https://robohash.org/pariatursapienteperspiciatis.png?size=50x50&set=set1"
-  }, {
-    "id": 3,
-    "userId": 11,
-    "profilePicture": "https://robohash.org/aliquamestex.png?size=50x50&set=set1"
-  }, {
-    "id": 4,
-    "userId": 15,
-    "profilePicture": "https://robohash.org/eosetsit.png?size=50x50&set=set1"
-  }, {
-    "id": 5,
-    "userId": 18,
-    "profilePicture": "https://robohash.org/isteutvoluptatem.png?size=50x50&set=set1"
-  }, {
-    "id": 6,
-    "userId": 17,
-    "profilePicture": "https://robohash.org/officiisaliquamsapiente.png?size=50x50&set=set1"
-  }, {
-    "id": 7,
-    "userId": 10,
-    "profilePicture": "https://robohash.org/utvitaesit.png?size=50x50&set=set1"
-  }, {
-    "id": 8,
-    "userId": 13,
-    "profilePicture": "https://robohash.org/impeditomnisnon.png?size=50x50&set=set1"
-  }, {
-    "id": 9,
-    "userId": 10,
-    "profilePicture": "https://robohash.org/velitquiaquia.png?size=50x50&set=set1"
-  }, {
-    "id": 10,
-    "userId": 13,
-    "profilePicture": "https://robohash.org/eiusdoloresautem.png?size=50x50&set=set1"
-  }],
-  "properties": [{
-    "id": 1,
-    "name": "Ronstring",
-    "userId": 1,
-    "street": "397 Fulton Way",
-    "city": "Ferraz de Vasconcelos",
-    "zipCode": "08500-000",
-    "houseSize": "L",
-    "cleaningTime": 4,
-    "cleanStatus": false
-  }, {
-    "id": 2,
-    "name": "Zoolab",
-    "userId": 1,
-    "street": "43 Gerald Junction",
-    "city": "Porto Salvo",
-    "zipCode": "2740-010",
-    "houseSize": "2L",
-    "cleaningTime": 4,
-    "cleanStatus": true
-  }, {
-    "id": 3,
-    "name": "Gembucket",
-    "userId": 1,
-    "street": "68301 Steensland Terrace",
-    "city": "Youzha",
-    "houseSize": "2L",
-    "cleaningTime": 1,
-    "cleanStatus": false
-  }, {
-    "id": 4,
-    "name": "Alphazap",
-    "userId": 2,
-    "street": "7 Stone Corner Hill",
-    "city": "Alzamay",
-    "zipCode": "665161",
-    "houseSize": "M",
-    "cleaningTime": 4,
-    "cleanStatus": false
-  }, {
-    "id": 5,
-    "name": "Flowdesk",
-    "userId": 5,
-    "street": "657 Cordelia Hill",
-    "city": "Masaya",
-    "houseSize": "L",
-    "cleaningTime": 3,
-    "cleanStatus": true
-  }, {
-    "id": 6,
-    "name": "Stim",
-    "userId": 5,
-    "street": "914 Dunning Hill",
-    "city": "Banī Mazār",
-    "houseSize": "3L",
-    "cleaningTime": 3,
-    "cleanStatus": true
-  }, {
-    "id": 7,
-    "name": "Zathin",
-    "userId": 17,
-    "street": "02 Riverside Terrace",
-    "city": "Agualote",
-    "houseSize": "S",
-    "cleaningTime": 1,
-    "cleanStatus": true
-  }, {
-    "id": 8,
-    "name": "Bigta",
-    "userId": 13,
-    "street": "46878 Spenser Way",
-    "city": "New Panamao",
-    "zipCode": "7402",
-    "houseSize": "2L",
-    "cleaningTime": 3,
-    "cleanStatus": false
-  }, {
-    "id": 9,
-    "name": "Flexidy",
-    "userId": 17,
-    "street": "076 Trailsway Lane",
-    "city": "Plumtree",
-    "houseSize": "L",
-    "cleaningTime": 1,
-    "cleanStatus": true
-  }, {
-    "id": 10,
-    "name": "Keyle",
-    "userId": 2,
-    "street": "7 Lunder Street",
-    "city": "Jawl al Majma",
-    "houseSize": "S",
-    "cleaningTime": 4,
-    "cleanStatus": false
-  }, {
-    "id": 11,
-    "name": "Cardify",
-    "userId": 17,
-    "street": "906 Toban Park",
-    "city": "Olival",
-    "zipCode": "2435-454",
-    "houseSize": "3L",
-    "cleaningTime": 3,
-    "cleanStatus": false
-  }, {
-    "id": 12,
-    "name": "Cookley",
-    "userId": 16,
-    "street": "88 Schurz Circle",
-    "city": "Thạnh Hóa",
-    "houseSize": "S",
-    "cleaningTime": 3,
-    "cleanStatus": false
-  }, {
-    "id": 13,
-    "name": "Cardguard",
-    "userId": 13,
-    "street": "927 Fairview Junction",
-    "city": "Oranzherei",
-    "zipCode": "416368",
-    "houseSize": "L",
-    "cleaningTime": 3,
-    "cleanStatus": true
-  }, {
-    "id": 14,
-    "name": "Veribet",
-    "userId": 12,
-    "street": "4 Northfield Center",
-    "city": "Naḥf",
-    "houseSize": "2L",
-    "cleaningTime": 2,
-    "cleanStatus": true
-  }, {
-    "id": 15,
-    "name": "Sonsing",
-    "userId": 17,
-    "street": "0 Laurel Avenue",
-    "city": "Guaratinguetá",
-    "zipCode": "12500-000",
-    "houseSize": "L",
-    "cleaningTime": 3,
-    "cleanStatus": false
-  }],
-  "houseSize": [{
-    "id": 1,
-    "sizeNumber": "S"
-  },{
-    "id": 2,
-    "sizeNumber": "M"
-  },{
-    "id": 3,
-    "sizeNumber": "L"
-  }] 
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Christye",
+      "last_name": "Bottrell",
+      "email": "cbottrell0@archive.org",
+      "isHost": true
+    },
+    {
+      "id": 2,
+      "first_name": "Darnell",
+      "last_name": "Henzley",
+      "email": "dhenzley1@wikia.com",
+      "isHost": false
+    },
+    {
+      "id": 3,
+      "first_name": "Piggy",
+      "last_name": "Poker",
+      "email": "ppoker2@stanford.edu",
+      "isHost": false
+    },
+    {
+      "id": 4,
+      "first_name": "Phil",
+      "last_name": "Shoreman",
+      "email": "pshoreman3@oracle.com",
+      "isHost": false
+    },
+    {
+      "id": 5,
+      "first_name": "Patsy",
+      "last_name": "Simonelli",
+      "email": "psimonelli4@netlog.com",
+      "isHost": true
+    },
+    {
+      "id": 6,
+      "first_name": "Kaia",
+      "last_name": "Siddle",
+      "email": "ksiddle5@thetimes.co.uk",
+      "isHost": false
+    },
+    {
+      "id": 7,
+      "first_name": "Ellie",
+      "last_name": "Critcher",
+      "email": "ecritcher6@myspace.com",
+      "isHost": false
+    },
+    {
+      "id": 8,
+      "first_name": "Waite",
+      "last_name": "Renehan",
+      "email": "wrenehan7@google.ru",
+      "isHost": true
+    },
+    {
+      "id": 9,
+      "first_name": "Jenica",
+      "last_name": "Siddele",
+      "email": "jsiddele8@reference.com",
+      "isHost": false
+    },
+    {
+      "id": 10,
+      "first_name": "Kaylyn",
+      "last_name": "Edwick",
+      "email": "kedwick9@imdb.com",
+      "isHost": true
+    }
+  ],
+  "cleaningRequests": [
+    {
+      "id": 1,
+      "cleanerId": 20,
+      "propertyId": 11,
+      "dateNeeded": "12/8/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 2,
+      "cleanerId": 16,
+      "propertyId": 5,
+      "dateNeeded": "12/2/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 3,
+      "cleanerId": 18,
+      "propertyId": 2,
+      "dateNeeded": "11/16/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 4,
+      "cleanerId": 2,
+      "propertyId": 5,
+      "dateNeeded": "10/31/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 5,
+      "cleanerId": 3,
+      "propertyId": 18,
+      "dateNeeded": "10/5/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 6,
+      "cleanerId": 18,
+      "propertyId": 12,
+      "dateNeeded": "10/7/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 7,
+      "cleanerId": 14,
+      "propertyId": 9,
+      "dateNeeded": "10/23/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 8,
+      "cleanerId": 8,
+      "propertyId": 11,
+      "dateNeeded": "10/30/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 9,
+      "cleanerId": 17,
+      "propertyId": 3,
+      "dateNeeded": "10/19/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 10,
+      "cleanerId": 5,
+      "propertyId": 7,
+      "dateNeeded": "9/27/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 11,
+      "cleanerId": 19,
+      "propertyId": 5,
+      "dateNeeded": "10/8/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 12,
+      "cleanerId": 11,
+      "propertyId": 11,
+      "dateNeeded": "11/16/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 13,
+      "cleanerId": 9,
+      "propertyId": 18,
+      "dateNeeded": "9/15/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 14,
+      "cleanerId": 11,
+      "propertyId": 17,
+      "dateNeeded": "11/30/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 15,
+      "cleanerId": 6,
+      "propertyId": 14,
+      "dateNeeded": "10/2/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 16,
+      "cleanerId": 10,
+      "propertyId": 11,
+      "dateNeeded": "11/14/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 17,
+      "cleanerId": 13,
+      "propertyId": 2,
+      "dateNeeded": "11/9/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 18,
+      "cleanerId": 12,
+      "propertyId": 12,
+      "dateNeeded": "9/13/2022",
+      "jobCompleted": false
+    },
+    {
+      "id": 19,
+      "cleanerId": 17,
+      "propertyId": 12,
+      "dateNeeded": "11/10/2022",
+      "jobCompleted": true
+    },
+    {
+      "id": 20,
+      "cleanerId": 11,
+      "propertyId": 1,
+      "dateNeeded": "11/9/2022",
+      "jobCompleted": false
+    }
+  ],
+  "cleaner": [
+    {
+      "id": 1,
+      "userId": 16,
+      "profilePicture": "https://robohash.org/culpaveniamvoluptatem.png?size=50x50&set=set1"
+    },
+    {
+      "id": 2,
+      "userId": 11,
+      "profilePicture": "https://robohash.org/pariatursapienteperspiciatis.png?size=50x50&set=set1"
+    },
+    {
+      "id": 3,
+      "userId": 11,
+      "profilePicture": "https://robohash.org/aliquamestex.png?size=50x50&set=set1"
+    },
+    {
+      "id": 4,
+      "userId": 15,
+      "profilePicture": "https://robohash.org/eosetsit.png?size=50x50&set=set1"
+    },
+    {
+      "id": 5,
+      "userId": 18,
+      "profilePicture": "https://robohash.org/isteutvoluptatem.png?size=50x50&set=set1"
+    },
+    {
+      "id": 6,
+      "userId": 17,
+      "profilePicture": "https://robohash.org/officiisaliquamsapiente.png?size=50x50&set=set1"
+    },
+    {
+      "id": 7,
+      "userId": 10,
+      "profilePicture": "https://robohash.org/utvitaesit.png?size=50x50&set=set1"
+    },
+    {
+      "id": 8,
+      "userId": 13,
+      "profilePicture": "https://robohash.org/impeditomnisnon.png?size=50x50&set=set1"
+    },
+    {
+      "id": 9,
+      "userId": 10,
+      "profilePicture": "https://robohash.org/velitquiaquia.png?size=50x50&set=set1"
+    },
+    {
+      "id": 10,
+      "userId": 13,
+      "profilePicture": "https://robohash.org/eiusdoloresautem.png?size=50x50&set=set1"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "name": "Ronstring",
+      "userId": 1,
+      "street": "397 Fulton Way",
+      "city": "Ferraz de Vasconcelos",
+      "zipCode": "08500-000",
+      "houseSize": "L",
+      "cleaningTime": 4,
+      "cleanStatus": false
+    },
+    {
+      "id": 2,
+      "name": "Zoolab",
+      "userId": 1,
+      "street": "43 Gerald Junction",
+      "city": "Porto Salvo",
+      "zipCode": "2740-010",
+      "houseSize": "2L",
+      "cleaningTime": 4,
+      "cleanStatus": true
+    },
+    {
+      "id": 3,
+      "name": "Gembucket",
+      "userId": 1,
+      "street": "68301 Steensland Terrace",
+      "city": "Youzha",
+      "houseSize": "2L",
+      "cleaningTime": 1,
+      "cleanStatus": false
+    },
+    {
+      "id": 4,
+      "name": "Alphazap",
+      "userId": 2,
+      "street": "7 Stone Corner Hill",
+      "city": "Alzamay",
+      "zipCode": "665161",
+      "houseSize": "M",
+      "cleaningTime": 4,
+      "cleanStatus": false
+    },
+    {
+      "id": 5,
+      "name": "Flowdesk",
+      "userId": 5,
+      "street": "657 Cordelia Hill",
+      "city": "Masaya",
+      "houseSize": "L",
+      "cleaningTime": 3,
+      "cleanStatus": true
+    },
+    {
+      "id": 6,
+      "name": "Stim",
+      "userId": 5,
+      "street": "914 Dunning Hill",
+      "city": "Banī Mazār",
+      "houseSize": "3L",
+      "cleaningTime": 3,
+      "cleanStatus": true
+    },
+    {
+      "id": 7,
+      "name": "Zathin",
+      "userId": 17,
+      "street": "02 Riverside Terrace",
+      "city": "Agualote",
+      "houseSize": "S",
+      "cleaningTime": 1,
+      "cleanStatus": true
+    },
+    {
+      "id": 8,
+      "name": "Bigta",
+      "userId": 13,
+      "street": "46878 Spenser Way",
+      "city": "New Panamao",
+      "zipCode": "7402",
+      "houseSize": "2L",
+      "cleaningTime": 3,
+      "cleanStatus": false
+    },
+    {
+      "id": 9,
+      "name": "Flexidy",
+      "userId": 17,
+      "street": "076 Trailsway Lane",
+      "city": "Plumtree",
+      "houseSize": "L",
+      "cleaningTime": 1,
+      "cleanStatus": true
+    },
+    {
+      "id": 10,
+      "name": "Keyle",
+      "userId": 2,
+      "street": "7 Lunder Street",
+      "city": "Jawl al Majma",
+      "houseSize": "S",
+      "cleaningTime": 4,
+      "cleanStatus": false
+    },
+    {
+      "id": 11,
+      "name": "Cardify",
+      "userId": 17,
+      "street": "906 Toban Park",
+      "city": "Olival",
+      "zipCode": "2435-454",
+      "houseSize": "3L",
+      "cleaningTime": 3,
+      "cleanStatus": false
+    },
+    {
+      "id": 12,
+      "name": "Cookley",
+      "userId": 16,
+      "street": "88 Schurz Circle",
+      "city": "Thạnh Hóa",
+      "houseSize": "S",
+      "cleaningTime": 3,
+      "cleanStatus": false
+    },
+    {
+      "id": 13,
+      "name": "Cardguard",
+      "userId": 13,
+      "street": "927 Fairview Junction",
+      "city": "Oranzherei",
+      "zipCode": "416368",
+      "houseSize": "L",
+      "cleaningTime": 3,
+      "cleanStatus": true
+    },
+    {
+      "id": 14,
+      "name": "Veribet",
+      "userId": 12,
+      "street": "4 Northfield Center",
+      "city": "Naḥf",
+      "houseSize": "2L",
+      "cleaningTime": 2,
+      "cleanStatus": true
+    },
+    {
+      "id": 15,
+      "name": "Sonsing",
+      "userId": 17,
+      "street": "0 Laurel Avenue",
+      "city": "Guaratinguetá",
+      "zipCode": "12500-000",
+      "houseSize": "L",
+      "cleaningTime": 3,
+      "cleanStatus": false
+    },
+    {
+      "userId": 1,
+      "name": "SuperProperty",
+      "street": "345 heavenWay St.",
+      "city": "GA",
+      "zipCode": "34456",
+      "houseSize": "2",
+      "cleaningTime": 0,
+      "cleanStatus": true,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "name": "ExtraSuperProp",
+      "street": "320 FunDrive St.",
+      "city": "TN",
+      "zipCode": "37209",
+      "houseSize": "L",
+      "cleaningTime": 0,
+      "cleanStatus": true,
+      "id": 17
+    }
+  ],
+  "houseSize": [
+    {
+      "id": 1,
+      "sizeNumber": "S"
+    },
+    {
+      "id": 2,
+      "sizeNumber": "M"
+    },
+    {
+      "id": 3,
+      "sizeNumber": "L"
+    }
+  ]
 }

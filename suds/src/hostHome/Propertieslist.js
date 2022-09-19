@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 
 export const PropertiesList = () => {
@@ -10,10 +11,12 @@ export const PropertiesList = () => {
     const localSudsUser = localStorage.getItem("suds_user")
     const SudsUserObject = JSON.parse(localSudsUser)
     
-    //this is fetching the properties
+    // const {userId} = useParams()
+
+   // this is fetching the properties
     useEffect(
         () => {
-            fetch(' http://localhost:8088/properties')
+            fetch(`http://localhost:8088/properties?_expand=user&userId=${SudsUserObject.id}`)
                 .then(response => response.json())
                 .then((propertiesArray) => {
                     setProperties(propertiesArray)
