@@ -74,35 +74,30 @@
   "cleaningRequests": [
     {
       "id": 1,
-      "cleanerId": 20,
       "propertyId": 11,
       "dateNeeded": "12/8/2022",
-      "jobCompleted": true
+      "jobCompleted": false
     },
     {
       "id": 2,
-      "cleanerId": 16,
       "propertyId": 5,
       "dateNeeded": "12/2/2022",
       "jobCompleted": false
     },
     {
       "id": 3,
-      "cleanerId": 11,
       "propertyId": 2,
       "dateNeeded": "11/16/2022",
       "jobCompleted": false
     },
     {
       "id": 4,
-      "cleanerId": 2,
       "propertyId": 5,
       "dateNeeded": "10/31/2022",
-      "jobCompleted": true
+      "jobCompleted": false
     },
     {
       "id": 5,
-      "cleanerId": 3,
       "propertyId": 1,
       "dateNeeded": "10/5/2022",
       "jobCompleted": false
