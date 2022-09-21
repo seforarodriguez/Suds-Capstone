@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { NewCleaningReq } from "../cleaningServices/cleaningReq"
 import { NewPropertyForm } from "../hostHome/PropertiesForm"
 import { PropertiesList } from "../hostHome/PropertiesHostList"
 
@@ -17,6 +18,7 @@ export const HostView = () => {
             </Route>
             <Route path="myProperties" element={< PropertiesList/>} />
             <Route path="createNewProperty" element={< NewPropertyForm />} />
+            <Route path="requestAcleaning/:propertyId" element={< NewCleaningReq />} />
         </Routes>
     )
 }

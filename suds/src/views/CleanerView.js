@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { CleaningRequestEdit } from "../cleaningServices/cleaningReqEdit"
 import { PropertiesCleanerList } from "../hostHome/PropertiesCleanerList"
 
 
@@ -15,7 +16,8 @@ export const CleanerView = () => {
             }>
             </Route>
             <Route path="myProperties" element={< PropertiesCleanerList/>} />
-            {/* <Route path=":userId" element={< PropertiesList/>} /> */}
+            <Route path="cleaningRequests/:requestId" element={< CleaningRequestEdit/>} />
         </Routes>
     )
 }
+//why is this rendering withmyProperties in front of cleaning requests?

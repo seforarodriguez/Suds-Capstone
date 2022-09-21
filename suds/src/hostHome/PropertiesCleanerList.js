@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const PropertiesCleanerList = () => {
 
     const [cleaningRequests, setCleaningRequests] = useState([])
-    const [filteredProperties, setFilteredProperties] = useState([])
-    const [dirtyProperties, updateDirtyProperties] = useState(false)
-
+    
+    const navigate = useNavigate()
+    
     const localSudsUser = localStorage.getItem("suds_user")
     const SudsUserObject = JSON.parse(localSudsUser)
 
@@ -18,7 +19,7 @@ export const PropertiesCleanerList = () => {
                     .then((propertiesArray) => {
                         setCleaningRequests(propertiesArray)
                     })
-                : fetch(`http://localhost:8088/cleaningRequests?_expand=property`)
+                : fetch(`http://localhost:8088/cleaningRequests?_expand=property&jobCompleted=false`)
                     .then(response => response.json())
                     .then((propertiesArray) => {
                         setCleaningRequests(propertiesArray)
@@ -27,6 +28,25 @@ export const PropertiesCleanerList = () => {
         []
     )
 
+    const handleSaveButtonClick = (id) => {
+        return navigate(`/cleaningRequests/${id}`)
+    }
+    
+    // useEffect(() => {
+    //     fetch(` http://localhost:8088/cleaningRequests`, {
+    //         method: "PUT",
+    //         headers: {
+    //             "Content-Type": "application/json"
+    //         },
+    //         body: JSON.stringify(cleaningRequests)
+    //     })
+    //         .then(response => response.json())
+    //         .then(() => {
+                
+    //         })
+        
+    // }, []
+    // )
 
 
 //I need extra code to make all the properties for that user to show... small bug with the usestate
@@ -35,14 +55,17 @@ export const PropertiesCleanerList = () => {
         <section className="allProperties">
             {
                 cleaningRequests.map(request => {
-                    return <div key={request.id}>
+                    return <section key={request.id}>
                         <ul>
                             <li>{request.property.name}</li> 
+                            <li>It needs to be cleaned before: {request.dateNeeded}</li>
                             <li>{request.property.street}, {request.property.city} {request.property.zipCode}</li>
-                            <li> {request.property.houseSize}</li>
+                            <li>{request.property.houseSize}</li>
                         </ul>
-                        <button onClick={() => <></>}>I will clean it!</button>
-                    </div>
+                        <button value= {true} onClick={() => {
+                            handleSaveButtonClick(request.id)
+                        }}>I will clean it!</button>
+                    </section>
                 })
             }
         </section>

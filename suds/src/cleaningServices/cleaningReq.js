@@ -1,8 +1,10 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
-export const NewCleaningReq = () => {
+export const NewCleaningReq = ({propId}) => {
 
+    const {propertyId} = useParams()
+    
     const [toClean, updateToclean] = useState({
         propertyId: 0,
         dateNeeded: "",
@@ -21,8 +23,8 @@ export const NewCleaningReq = () => {
         // TODO: Create the object to be saved to the API
        
         const propertyToCleanToAPI = {
-            propertyId: 0,
-            dateNeeded: Date.now(),
+            propertyId: parseInt(propertyId),
+            dateNeeded: toClean.dateNeeded,
             jobCompleted: false
         }
 
@@ -41,7 +43,33 @@ export const NewCleaningReq = () => {
     }
 
 
+
+
     return (
-       window.alert("cleaning Request has been sent!")
-    )
+        <form className="CleaningForm">
+            <h2 className="Properties Form__title">New Cleaning request</h2>
+            <fieldset>
+                <div className="form-group">
+                    <label htmlFor="propertyName">Cleaning Details</label>
+                    <input
+                        required autoFocus
+                        type="date"
+                        className="form-control"
+                        value={toClean.dateNeeded}
+                        onChange={
+                            (event) => {
+                                const copy = {...toClean}
+                                copy.dateNeeded = event.target.value
+                                updateToclean(copy)
+                            }
+                        } />
+                </div>
+            </fieldset> 
+           
+            <button onClick={(clickEvent) => handleSaveButtonClick(clickEvent)}
+                className="btn btn-primary">
+                Submit Property
+            </button>
+        </form>
+    ) //closing the return
 }

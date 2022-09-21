@@ -1,11 +1,15 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Navigate, useNavigate, useParams } from 'react-router-dom';
+import 'react-modern-calendar-datepicker/lib/DatePicker.css';
+import DatePicker from 'react-modern-calendar-datepicker';
 
 export const PropertiesList = () => {
 
     const [properties, setProperties] = useState([])
     const [filteredProperties, setFilteredProperties] = useState([])
     const [dirtyProperties, updateDirtyProperties] = useState(false)
+    const [selectedDay, setSelectedDay] = useState(null);
+    const navigate = useNavigate()
 
     const localSudsUser = localStorage.getItem("suds_user")
     const SudsUserObject = JSON.parse(localSudsUser)
@@ -13,6 +17,11 @@ export const PropertiesList = () => {
     const { userId } = useParams()
 
     //this is fetching the properties
+
+    const goToCleaningRequest = (id) => {
+        return navigate(`/requestAcleaning/${id}`)
+    }
+
 
     useEffect(
         () => {
@@ -44,16 +53,17 @@ export const PropertiesList = () => {
     //  this is filtering the ones that have the clean status as false aka they are dirty
     useEffect(() => {
         if (dirtyProperties) {
-        //Only is true we are going to filter the tickets
-        const dirtyPropertiesArray = filteredProperties.filter(property => property.cleanStatus === false)
-         setFilteredProperties(dirtyPropertiesArray)
-        }else {
-      setFilteredProperties(properties)
-        }},
+            //Only is true we are going to filter the tickets
+            const dirtyPropertiesArray = filteredProperties.filter(property => property.cleanStatus === false)
+            setFilteredProperties(dirtyPropertiesArray)
+        } else {
+            setFilteredProperties(properties)
+        }
+    },
         [dirtyProperties]
     )
 
-//I need extra code to make all the properties for that user to show... small bug with the usestate
+    //I need extra code to make all the properties for that user to show... small bug with the usestate
     return <>
         <h2> My Properties </h2>
         <button onClick={() => dirtyProperties === false ? updateDirtyProperties(true) : updateDirtyProperties(false)}>These Properties are dirty</button>
@@ -64,20 +74,23 @@ export const PropertiesList = () => {
                         <ul>
                             <li>{property.name}</li>
                             <li>{property.street}, {property.city} {property.zipCode}</li>
-                            <li> {property.houseSize}</li>
+                            <li>{property.houseSize}</li>
                             {
-                                property.cleanStatus === false? 
-                                <button onClick={() => <></>}> Request Cleaning</button> 
-                                : ""
+                                property.cleanStatus === false ?
+                                <>
+                                    You Should get this cleaned:
+                                    <button onClick={() => goToCleaningRequest(property.id)}> + </button> 
+                                </>
+                                    : "This is Clean! No Stress"
                             }
                         </ul>
                     </div>
                 })
             }
         </section>
-    
+
     </>
-    
+
 } //closing bracket
 
 //when request cleaning button is clicked
