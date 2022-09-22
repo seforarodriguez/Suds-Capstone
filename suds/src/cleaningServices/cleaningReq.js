@@ -38,6 +38,7 @@ export const NewCleaningReq = ({propId}) => {
         })
             .then(response => response.json())
             .then(() => {
+                window.alert("Your request has been sent")
                 navigate("/myProperties")
             })
     }

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 export const CleaningRequestEdit = () => {
 
-
+    const navigate = useNavigate()
     const localSudsUser = localStorage.getItem("suds_user")
     const SudsUserObject = JSON.parse(localSudsUser)
 
@@ -18,10 +18,10 @@ export const CleaningRequestEdit = () => {
 
     //Get the propertyToClean state from the API.
     useEffect(() => {
-        fetch(`http://localhost:8088/cleaningRequests/${requestId}`)
+        fetch(`http://localhost:8088/cleaningRequests?_expand=property&id=${requestId}`)
             .then(response => response.json())
             .then((data) => {
-                const requestObject = data
+                const requestObject = data[0]
                 updatePropToClean(requestObject)
             })
     }, [])
@@ -42,6 +42,7 @@ export const CleaningRequestEdit = () => {
             .then(response => response.json())
             .then(() => {
                 window.alert("All the dirt has been washed away and updated!")
+                navigate("/myProperties")
             })
 
     }
@@ -49,10 +50,22 @@ export const CleaningRequestEdit = () => {
 
     return <form className="AcceptanceForm">
         <h2 className="YesToClean">Accepting to Clean the Property</h2>
+        <div>
+            Property's Name {propertyToClean?.property?.name}
+        </div>
+        <div>
+            Address: {propertyToClean?.property?.street}
+        </div>
+        <div>
+            zipCode {propertyToClean?.property?.zipCode}
+        </div>
+        <div>
+            This will only take {propertyToClean?.property?.cleaningTime} hours to clean
+        </div>
 
         <fieldset>
             <div className="form-group">
-                <label htmlFor="name">All Clean and ready to get dirty</label>
+                <label htmlFor="name">If you're up to the challenge and called the owner mark this as done</label>
                 <input type="checkbox"
                     onChange={
                         (evt) => {

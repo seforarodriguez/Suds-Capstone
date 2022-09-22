@@ -8,7 +8,7 @@ export const PropertiesList = () => {
     const [properties, setProperties] = useState([])
     const [filteredProperties, setFilteredProperties] = useState([])
     const [dirtyProperties, updateDirtyProperties] = useState(false)
-    const [selectedDay, setSelectedDay] = useState(null);
+    const [openRequests, setOpenRequests] = useState(null);
     const navigate = useNavigate()
 
     const localSudsUser = localStorage.getItem("suds_user")
@@ -22,6 +22,13 @@ export const PropertiesList = () => {
         return navigate(`/requestAcleaning/${id}`)
     }
 
+    const refreshProperties = () => {
+        fetch(`http://localhost:8088/properties?_expand=user&userId=${SudsUserObject.id}`)
+                    .then(response => response.json())
+                    .then((propertiesArray) => {
+                        setFilteredProperties(propertiesArray)
+                    })
+    }
 
     useEffect(
         () => {
@@ -50,6 +57,7 @@ export const PropertiesList = () => {
 
     }, [properties])
 
+    
     //  this is filtering the ones that have the clean status as false aka they are dirty
     useEffect(() => {
         if (dirtyProperties) {
@@ -75,14 +83,15 @@ export const PropertiesList = () => {
                             <li>{property.name}</li>
                             <li>{property.street}, {property.city} {property.zipCode}</li>
                             <li>{property.houseSize}</li>
-                            {
-                                property.cleanStatus === false ?
-                                <>
-                                    You Should get this cleaned:
-                                    <button onClick={() => goToCleaningRequest(property.id)}> + </button> 
-                                </>
-                                    : "This is Clean! No Stress"
-                            }
+                            <button onClick={() => goToCleaningRequest(property.id)}>Schedule New Cleaning </button>
+                            <button onClick={() => {
+                                 fetch(`http://localhost:8088/properties/${property.id}`, {
+                                    method: "DELETE"
+                                })
+                                    .then(() => {
+                                        refreshProperties()
+                                    })
+                            }}>No Longer own this</button>
                         </ul>
                     </div>
                 })
