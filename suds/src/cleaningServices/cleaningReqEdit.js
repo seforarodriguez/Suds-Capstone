@@ -49,19 +49,13 @@ export const CleaningRequestEdit = () => {
 
 
     return <form className="AcceptanceForm">
-        <h2 className="YesToClean">Accepting to Clean the Property</h2>
-        <div>
-            Property's Name {propertyToClean?.property?.name}
-        </div>
-        <div>
-            Address: {propertyToClean?.property?.street}
-        </div>
-        <div>
-            zipCode {propertyToClean?.property?.zipCode}
-        </div>
-        <div>
-            This will only take {propertyToClean?.property?.cleaningTime} hours to clean
-        </div>
+        <section>
+            <h2 className="YesToClean">Accepting to Clean the Property</h2>
+            <div>Property's Name {propertyToClean?.property?.name}</div>
+            <div>Address: {propertyToClean?.property?.street}</div>
+            <div>zipCode {propertyToClean?.property?.zipCode}</div>
+            <div>This will only take {propertyToClean?.property?.cleaningTime} hours to clean</div>
+        </section>
 
         <fieldset>
             <div className="form-group">

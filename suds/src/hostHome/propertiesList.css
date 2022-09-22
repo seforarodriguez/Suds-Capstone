@@ -1,0 +1,16 @@
+
+.allProperties {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.eachDirtyProperty {
+    background-color: aquamarine;
+    border: solid 1px;
+    padding: 3em;
+    margin: 2rem;
+
+}

@@ -79,10 +79,9 @@ export const PropertiesList = () => {
             {
                 filteredProperties.map(property => {
                     return <div key={property.id}>
-                        <ul>
-                            <li>{property.name}</li>
-                            <li>{property.street}, {property.city} {property.zipCode}</li>
-                            <li>{property.houseSize}</li>
+                            <div>{property.name}</div>
+                            <div>{property.street}, {property.city} {property.zipCode}</div>
+                            <div>{property.houseSize}</div>
                             <button onClick={() => goToCleaningRequest(property.id)}>Schedule New Cleaning </button>
                             <button onClick={() => {
                                  fetch(`http://localhost:8088/properties/${property.id}`, {
@@ -92,7 +91,6 @@ export const PropertiesList = () => {
                                         refreshProperties()
                                     })
                             }}>No Longer own this</button>
-                        </ul>
                     </div>
                 })
             }
