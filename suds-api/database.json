@@ -79,23 +79,10 @@
       "jobCompleted": true
     },
     {
-      "id": 5,
-      "propertyId": 1,
-      "dateNeeded": "10/5/2022",
-      "jobCompleted": true,
-      "cleanerId": 2
-    },
-    {
       "propertyId": 3,
       "dateNeeded": "2022-09-27",
       "jobCompleted": true,
       "id": 6
-    },
-    {
-      "propertyId": 1,
-      "dateNeeded": "2022-09-29",
-      "jobCompleted": false,
-      "id": 7
     },
     {
       "propertyId": 3,
@@ -200,17 +187,6 @@
     }
   ],
   "properties": [
-    {
-      "id": 1,
-      "name": "Ronstring",
-      "userId": 1,
-      "street": "397 Fulton Way",
-      "city": "Ferraz de Vasconcelos",
-      "zipCode": "08500-000",
-      "houseSize": "L",
-      "cleaningTime": 4,
-      "cleanStatus": false
-    },
     {
       "id": 3,
       "name": "Gembucket",
