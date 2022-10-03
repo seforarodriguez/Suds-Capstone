@@ -6,11 +6,17 @@
     align-items: center;
 }
 
+.PropertiesForm {
+    margin: 3em;
+}
 
 .eachDirtyProperty {
-    background-color: aquamarine;
-    border: solid 1px;
     padding: 3em;
     margin: 2rem;
+    background-color: #B1EDE8;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
 
 }

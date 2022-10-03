@@ -4,14 +4,14 @@
       "id": 1,
       "first_name": "Christye",
       "last_name": "Bottrell",
-      "email": "cbottrell0@archive.org",
+      "email": "a@a.com",
       "isHost": true
     },
     {
       "id": 2,
       "first_name": "Darnell",
       "last_name": "Henzley",
-      "email": "dhenzley1@wikia.com",
+      "email": "cleaner@cleans.com",
       "isHost": false
     },
     {
@@ -79,23 +79,10 @@
       "jobCompleted": true
     },
     {
-      "id": 5,
-      "propertyId": 1,
-      "dateNeeded": "10/5/2022",
-      "jobCompleted": true,
-      "cleanerId": 2
-    },
-    {
       "propertyId": 3,
       "dateNeeded": "2022-09-27",
       "jobCompleted": true,
       "id": 6
-    },
-    {
-      "propertyId": 1,
-      "dateNeeded": "2022-09-29",
-      "jobCompleted": false,
-      "id": 7
     },
     {
       "propertyId": 3,
@@ -138,35 +125,10 @@
       "cleanerId": 2
     },
     {
-      "propertyId": 11,
-      "dateNeeded": "2022-10-25",
-      "jobCompleted": true,
-      "id": 11,
-      "cleanerId": 2
-    },
-    {
       "propertyId": 13,
       "dateNeeded": "2022-10-12",
       "jobCompleted": false,
       "id": 12
-    },
-    {
-      "propertyId": 11,
-      "dateNeeded": "2022-10-30",
-      "jobCompleted": true,
-      "id": 13,
-      "property": {
-        "userId": 1,
-        "name": "UlaPalooza",
-        "street": "320 AVALON FOREST DRIVE",
-        "city": "TN",
-        "zipCode": "37209",
-        "houseSize": "M",
-        "cleaningTime": 0,
-        "cleanStatus": true,
-        "id": 11
-      },
-      "cleanerId": 2
     },
     {
       "propertyId": 12,
@@ -185,6 +147,30 @@
         "id": 12
       },
       "cleanerId": 2
+    },
+    {
+      "propertyId": 3,
+      "dateNeeded": "2022-09-28",
+      "jobCompleted": false,
+      "id": 15
+    },
+    {
+      "propertyId": 15,
+      "dateNeeded": "2022-10-31",
+      "jobCompleted": true,
+      "id": 17,
+      "property": {
+        "userId": 1,
+        "name": "Sefora's 3rd property",
+        "street": "320 Aa St.",
+        "city": "GA",
+        "zipCode": "30044",
+        "houseSize": "S",
+        "cleaningTime": 1,
+        "cleanStatus": true,
+        "id": 15
+      },
+      "cleanerId": 2
     }
   ],
   "cleaner": [
@@ -201,99 +187,119 @@
   ],
   "properties": [
     {
-      "id": 1,
-      "name": "Ronstring",
-      "userId": 1,
-      "street": "397 Fulton Way",
-      "city": "Ferraz de Vasconcelos",
-      "zipCode": "08500-000",
-      "houseSize": "L",
-      "cleaningTime": 4,
-      "cleanStatus": false
-    },
-    {
       "id": 3,
+      "phoneNumber": "987-387-4466",
       "name": "Gembucket",
       "userId": 1,
       "street": "68301 Steensland Terrace",
       "city": "Youzha",
-      "houseSize": "2L",
+      "houseSize": "3 Bedrooms or more",
       "cleaningTime": 1,
       "cleanStatus": false
     },
     {
       "id": 4,
+      "phoneNumber": "987-387-4466",
       "name": "Alphazap",
       "userId": 2,
       "street": "7 Stone Corner Hill",
       "city": "Alzamay",
       "zipCode": "665161",
-      "houseSize": "M",
+      "houseSize": "2 Bedrooms",
       "cleaningTime": 4,
       "cleanStatus": false
     },
     {
       "id": 5,
+      "phoneNumber": "987-387-4466",
       "name": "Flowdesk",
       "userId": 5,
       "street": "657 Cordelia Hill",
       "city": "Masaya",
-      "houseSize": "L",
+      "houseSize": "3 Bedrooms or more",
       "cleaningTime": 3,
       "cleanStatus": true
     },
     {
       "id": 6,
+      "phoneNumber": "987-387-4466",
       "name": "Stim",
       "userId": 5,
       "street": "914 Dunning Hill",
       "city": "Banī Mazār",
-      "houseSize": "3L",
+      "houseSize": "3 Bedrooms or more",
       "cleaningTime": 3,
       "cleanStatus": true
     },
     {
       "id": 10,
+      "phoneNumber": "987-387-4466",
       "name": "Keyle",
       "userId": 2,
       "street": "7 Lunder Street",
       "city": "Jawl al Majma",
-      "houseSize": "S",
+      "houseSize": "3 Bedrooms or more",
       "cleaningTime": 4,
       "cleanStatus": false
     },
     {
       "userId": 1,
-      "name": "UlaPalooza",
-      "street": "320 AVALON FOREST DRIVE",
-      "city": "TN",
-      "zipCode": "37209",
-      "houseSize": "M",
-      "cleaningTime": 0,
-      "cleanStatus": true,
-      "id": 11
-    },
-    {
-      "userId": 1,
+      "phoneNumber": "987-387-4466",
       "name": "Sefora Rodriguez",
       "street": "CALLE TRANSVERSAL NO 26",
       "city": "GA",
       "zipCode": "10106",
-      "houseSize": "",
+      "houseSize": "1 Bedroom",
       "cleaningTime": 0,
       "cleanStatus": true,
       "id": 12
     },
     {
       "userId": 1,
+      "phoneNumber": "987-387-4466",
       "name": "Luz Tejada",
       "street": "320 AVALON FOREST DRIVE",
       "city": "GA",
       "zipCode": "30044",
-      "houseSize": "L",
-      "cleaningTime": 0,
+      "houseSize": "3 Bedrooms or more",
+      "cleaningTime": 3,
       "cleanStatus": true,
       "id": 13
+    },
+    {
+      "userId": 1,
+      "phoneNumber": "987-387-4466",
+      "name": "Jessica's Property",
+      "street": "444 Main St.",
+      "city": "TX",
+      "zipCode": "30044",
+      "houseSize": "1 Bedroom",
+      "cleaningTime": 1,
+      "cleanStatus": false,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "phoneNumber": "987-387-4466",
+      "name": "Sefora's 3rd property",
+      "street": "320 Aa St.",
+      "city": "GA",
+      "zipCode": "30044",
+      "houseSize": "2 Bedrooms",
+      "cleaningTime": 1,
+      "cleanStatus": true,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "name": "My Best Mansion",
+      "street": "44 Fancy Street",
+      "city": "TN",
+      "zipCode": "37882",
+      "houseSize": "3 Bedrooms or more",
+      "cleaningTime": 5,
+      "cleanStatus": "1s",
+      "id": 16
     }
   ],
   "houseSize": [

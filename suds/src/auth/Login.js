@@ -20,7 +20,7 @@ export const Login = () => {
                         host: user.isHost
                     }))
 
-                    navigate("/loggedin")
+                    navigate("/myProperties")
                 }
                 else {
                     window.alert("Invalid login")
