@@ -2,6 +2,10 @@
     font-size: 2.5rem;
 }
 
+html {
+    background-color:  #B1EDE8 
+}
+
 fieldset {
     min-width: 0;
     padding: 1rem 0;
