@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import 'react-modern-calendar-datepicker/lib/DatePicker.css';
 import DatePicker from 'react-modern-calendar-datepicker';
+import "./propertiesList.css"
 
 export const PropertiesList = () => {
 
@@ -78,7 +79,7 @@ export const PropertiesList = () => {
         <section className="allProperties">
             {
                 filteredProperties.map(property => {
-                    return <div key={property.id}>
+                    return <div className='eachDirtyProperty' key={property.id}>
                             <div>{property.name}</div>
                             <div>{property.street}, {property.city} {property.zipCode}</div>
                             <div>{property.houseSize}</div>

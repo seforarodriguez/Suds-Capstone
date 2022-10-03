@@ -6,6 +6,7 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	min-height: 100vh;
+
 }
 ul {
   margin: 0;
@@ -41,15 +42,16 @@ a {
 	text-transform: uppercase;
 	text-align: center;
 	display: block;
+	color: #FFFCF9
 }
 
 .main-nav a {
-	color: #34495e;
+	color: #FFFCF9;
 	font-size: .99em;
 }
 
 .main-nav a:hover {
-	color: #718daa;
+	color: #FFFCF9;
 }
 
 
@@ -57,8 +59,8 @@ a {
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border: 1px solid #a2a2a2;
-	background-color: #f4f4f4;
+	border: 1px solid #6D435A;
+	background-color: #6D435A;
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);

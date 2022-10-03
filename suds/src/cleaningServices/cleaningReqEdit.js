@@ -49,17 +49,18 @@ export const CleaningRequestEdit = () => {
 
 
     return <form className="AcceptanceForm">
-        <section>
+        <section className="eachDirtyProperty">
             <h2 className="YesToClean">Accepting to Clean the Property</h2>
             <div>Property's Name {propertyToClean?.property?.name}</div>
             <div>Address: {propertyToClean?.property?.street}</div>
-            <div>zipCode {propertyToClean?.property?.zipCode}</div>
+            <div>zipCode: {propertyToClean?.property?.zipCode}</div>
+            <div>Phone Number: {propertyToClean?.property?.phoneNumber}</div>
             <div>This will only take {propertyToClean?.property?.cleaningTime} hours to clean</div>
         </section>
 
         <fieldset>
             <div className="form-group">
-                <label htmlFor="name">If you're up to the challenge and called the owner mark this as done</label>
+                <label htmlFor="name">If you're up to the challenge and already contacted the owner mark this as done</label>
                 <input type="checkbox"
                     onChange={
                         (evt) => {

@@ -12,7 +12,7 @@ export const NewPropertyForm = () => {
         city: "",
         zipCode: "",
         houseSize: "",
-        cleaningTime: 0,
+        cleaningTime: "",
         cleanStatus: true
     })
     
@@ -62,7 +62,7 @@ export const NewPropertyForm = () => {
             <h2 className="Properties Form__title">New Service Properties</h2>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="propertyName">Name your property</label>
+                    <label htmlFor="propertyName">Properties Information</label>
                     <input
                         required autoFocus
                         type="text"
@@ -108,12 +108,12 @@ export const NewPropertyForm = () => {
                         } />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="propertyName">Name your property</label>
+                    <label htmlFor="propertyName"></label>
                     <input
                         required autoFocus
                         type="text"
                         className="form-control"
-                        placeholder="What city is this in...?"
+                        placeholder="City"
                         value={property.city}
                         onChange={
                             (event) => {
@@ -124,7 +124,8 @@ export const NewPropertyForm = () => {
                         } />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="productType">House Size</label>
+                    <label htmlFor="productType">House Size: </label>
+                    <br></br> 
                     <select id="productType" value={property.houseSize}
                             onChange={(evt) => {
                                 const copy = {...property}
@@ -133,21 +134,24 @@ export const NewPropertyForm = () => {
                             }}
                         >
                         <option value={0}>Choose your Property's Size...</option>
-                        <option value={"S"}>S</option>
-                        <option value={"M"}>M</option>
-                        <option value={"L"}>L</option> 
+                        <option value={"1 Bedroom"}>1 Bedroom</option>
+                        <option value={"2 Bedrooms"}>2 Bedrooms</option>
+                        <option value={"3 Bedrooms or more"}>3 Bedrooms or more</option> 
                     </select>
                      </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="name">Is this clean?</label>
-                    <input type="checkbox"
-                        value={property.cleanStatus}
+                    <label htmlFor="name">Cleaning Time:</label>
+                    <input required autoFocus
+                        type="text"
+                        className="form-control"
+                        placeholder="How long will this take??"
+                        value={property.cleaningTime}
                         onChange={
                             (event) => {
                                 const copy = { ...property }
-                                copy.cleanStatus = event.target.checked
+                                copy.cleaningTime = event.target.value
                                 update(copy)
                             }
                         } />
