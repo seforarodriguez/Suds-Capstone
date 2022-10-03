@@ -13,10 +13,9 @@
 .eachDirtyProperty {
     padding: 3em;
     margin: 2rem;
-    background-color: #B1EDE8;
+    background-color: #FFFCF9;
   border: 1px solid #222222;
   border-radius: 8px;
   box-sizing: border-box;
   color: #222222;
-
 }
