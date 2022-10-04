@@ -15,7 +15,8 @@ code {
 
 /* CSS */
 button {
-  background-color: #FFFFFF;
+  box-shadow: -5px 6px 7px;
+  background-color: #ff6978c1;;
   border: 1px solid #222222;
   border-radius: 8px;
   box-sizing: border-box;
@@ -26,7 +27,7 @@ button {
   font-size: 12px;
   font-weight: 600;
   line-height: 20px;
-  margin: 0;
+  margin: 1em;
   outline: none;
   padding: 10px 15px;
   position: relative;

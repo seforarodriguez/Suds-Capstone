@@ -59,8 +59,8 @@ a {
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border: 1px solid #6D435A;
-	background-color: #6D435A;
+	border: 1px solid #ff6978c1;
+	background-color: #ff6978c1;
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
