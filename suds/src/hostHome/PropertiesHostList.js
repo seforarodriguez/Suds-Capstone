@@ -75,7 +75,7 @@ export const PropertiesList = () => {
     //I need extra code to make all the properties for that user to show... small bug with the usestate
     return <>
         <h2> My Properties </h2>
-        <button onClick={() => dirtyProperties === false ? updateDirtyProperties(true) : updateDirtyProperties(false)}>These Properties are dirty</button>
+        <button onClick={() => dirtyProperties === false ? updateDirtyProperties(!dirtyProperties) : updateDirtyProperties(false)}>These Properties are dirty</button>
         <section className="allProperties">
             {
                 filteredProperties.map(property => {

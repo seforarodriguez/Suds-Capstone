@@ -25,6 +25,7 @@ export const NewCleaningReq = ({propId}) => {
         const propertyToCleanToAPI = {
             propertyId: parseInt(propertyId),
             dateNeeded: toClean.dateNeeded,
+            cleanStatus: false,
             jobCompleted: false
         }
 

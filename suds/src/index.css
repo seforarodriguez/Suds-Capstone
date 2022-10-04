@@ -15,7 +15,8 @@ code {
 
 /* CSS */
 button {
-  background-color: #FF6978;
+  box-shadow: -5px 6px 7px;
+  background-color: #ff6978c1;;
   border: 1px solid #222222;
   border-radius: 8px;
   box-sizing: border-box;
